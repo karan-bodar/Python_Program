@@ -1,0 +1,26 @@
+# Python program demonstrating list
+# functions/methods
+
+l1 = [10,20,30,40]
+print("Original List: ",l1)
+print("Length of List: ",len(l1))
+print("count of 20",l1.count(20))
+print("Index of 30: ",l1.index(30))
+l1.append(50)
+print("List after append: ",l1)
+l1.insert(2,25)
+print("List after insert: ",l1)
+l1.extend([60,70])
+print("List after extend: ",l1)
+l1.remove(25)
+print("List after remove: ",l1)
+l1.pop()
+print("List after pop: ",l1)
+l1.reverse()
+print("List after reverse: ",l1)
+l1.sort()
+print("List after sort: ",l1)
+copy_list = l1.copy()
+print("Copy of List: ",copy_list)
+l1.clear()
+print("List after clear: ",l1)
